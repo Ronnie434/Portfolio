@@ -61,7 +61,6 @@
 
 }
 
-
 .select:not(.is-multiple):not(.is-loading)::after,
 .navbar-link:not(.is-arrowless)::after {
   border: 3px solid rgba(0, 0, 0, 0);
