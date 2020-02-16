@@ -37,6 +37,10 @@
   user-select: none;
 }
 
+.text-slider-items {
+  display: none;
+}
+
 
 .project_2_centered{
   color: #ebecf5;
