@@ -1,4 +1,4 @@
-@import url("https://use.typekit.net/ojv4ekx.css"); /*! bulma.io v0.8.0 | MIT License | github.com/jgthms/bulma */
+@import url("https://use.typekit.net/ojv4ekx.css"); 
 @-webkit-keyframes spinAround {
   from {
     -webkit-transform: rotate(0deg);
@@ -11406,86 +11406,7 @@ img.is-bottom.mentor {
   margin: 0 auto 1.5em;
   height: auto;
 }
-input[name="carousel"] {
-  display: none;
-}
-.testimonials-slider {
-  position: relative;
-}
-.carousel-nav {
-  margin: 0.25rem 0 3rem;
-  text-align: center;
-  z-index: 1;
-}
-@media screen and (min-width: 769px) {
-  .carousel-nav {
-    margin: 1rem 0 3.5rem;
-  }
-}
-@media screen and (min-width: 1216px) {
-  .carousel-nav {
-    margin: 1rem 0 0.5rem;
-  }
-}
-.carousel-nav label {
-  display: inline-block;
-  margin: 0 6px;
-  width: 15px;
-  height: 15px;
-  border: 2px solid #e6ecf8;
-  border-radius: 50%;
-  cursor: pointer;
-  -webkit-transition: background-color 0.25s;
-  transition: background-color 0.25s;
-}
-.carousel-slides {
-  width: 100%;
-  overflow: hidden;
-}
-.carousel-slides .carousel-inner {
-  width: 500%;
-  -webkit-transition: margin 0.5s;
-  transition: margin 0.5s;
-}
-.carousel-slides .carousel-item {
-  float: left;
-  width: 20%;
-}
-#carousel-1:checked ~ .carousel-nav label[for="carousel-1"] {
-  background-color: #7510f7;
-  border: 2px solid #7510f7;
-}
-#carousel-2:checked ~ .carousel-nav label[for="carousel-2"] {
-  background-color: #7510f7;
-  border: 2px solid #7510f7;
-}
-#carousel-3:checked ~ .carousel-nav label[for="carousel-3"] {
-  background-color: #7510f7;
-  border: 2px solid #7510f7;
-}
-#carousel-4:checked ~ .carousel-nav label[for="carousel-4"] {
-  background-color: #7510f7;
-  border: 2px solid #7510f7;
-}
-#carousel-5:checked ~ .carousel-nav label[for="carousel-5"] {
-  background-color: #7510f7;
-  border: 2px solid #7510f7;
-}
-#carousel-1:checked ~ .carousel-slides .carousel-inner {
-  margin-left: 0%;
-}
-#carousel-2:checked ~ .carousel-slides .carousel-inner {
-  margin-left: -100%;
-}
-#carousel-3:checked ~ .carousel-slides .carousel-inner {
-  margin-left: -200%;
-}
-#carousel-4:checked ~ .carousel-slides .carousel-inner {
-  margin-left: -300%;
-}
-#carousel-5:checked ~ .carousel-slides .carousel-inner {
-  margin-left: -400%;
-}
+
 .splash a.button.is-outlined.is-rounded.is-medium {
   color: #fff;
   padding: 1.25em 2em;
