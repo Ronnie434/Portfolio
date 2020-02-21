@@ -9,6 +9,11 @@
     transform: rotate(359deg);
   }
 }
+
+html{
+  scroll-behavior: smooth;
+}
+
 @keyframes spinAround {
   from {
     -webkit-transform: rotate(0deg);
@@ -40,6 +45,10 @@
 .text-slider-items {
   display: none;
 }
+
+/* .w-100{
+  width: 50%!important;
+} */
 
 
 .project_2_centered{
