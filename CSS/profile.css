@@ -10515,10 +10515,10 @@ label.panel-block:hover {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem;
 }
-html {
+/* html {
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
-}
+} */
 h1,
 h2,
 h3,
