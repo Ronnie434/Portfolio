@@ -28,6 +28,7 @@ body {
 html{
   scroll-behavior: smooth;
   overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
 }
 
 @keyframes spinAround {
