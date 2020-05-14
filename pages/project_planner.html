@@ -65,8 +65,6 @@
           <form
             id="form"
             accept-charset="UTF-8"
-            action="https://usebasin.com/f/69dbd3a010be"
-            method="POST"
           >
             <div class="columns is-centered">
               <div class="column is-half">
@@ -75,7 +73,7 @@
                   <div class="control is-expanded">
                     <input
                       class="input is-large"
-                      name="name"
+                      id="name"
                       type="text"
                       required
                     />
@@ -88,7 +86,7 @@
                   <div class="control is-expanded">
                     <input
                       class="input is-large"
-                      name="email"
+                      id="email"
                       type="email"
                       required
                     />
@@ -102,7 +100,7 @@
                   <label class="label">Type of project</label>
                   <div class="control is-expanded">
                     <div class="select is-fullwidth">
-                      <select class="is-large" name="project type" required>
+                      <select class="is-large" id="Type_Of_Project" name="project type" required>
                         <option value="0" disabled selected hidden> </option>
                         <option>Responsive design</option>
                         <option>Web app</option>
@@ -117,7 +115,7 @@
                   <label class="label">Budget</label>
                   <div class="control is-expanded">
                     <div class="select is-fullwidth">
-                      <select class="is-large" name="budget" required>
+                      <select class="is-large" id="Budget" name="budget" required>
                         <option value="0" disabled selected hidden> </option>
                         <option>$5,000 - $10,000</option>
                         <option>$10,000 - $25,000</option>
@@ -135,6 +133,7 @@
                   <div class="control is-expanded">
                     <textarea
                       class="textarea is-large"
+                      id="Additional_details"
                       name="details"
                       rows="5"
                       required
@@ -154,7 +153,9 @@
                 <div class="field">
                   <div class="control">
                     <button
+                      onclick="location.href = 'https://ronnie434.github.io/Portfolio/pages/success.html';"
                       class="button is-primary is-outlined is-medium is-fullwidth is-rounded"
+                      type="submit"
                     >
                       Submit
                     </button>
@@ -166,11 +167,14 @@
         </div>
       </section>
     </div>
-    <script src="../JS/main-min.js"></script>
-    <script
-      src="https://usebasin.com/f/363b98eca5af/ahoy.js"
-      async=""
-      defer=""
-    ></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-storage.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-messaging.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-functions.js"></script>
+    <script src="../JS/project_planner.js"></script>
   </body>
 </html>
