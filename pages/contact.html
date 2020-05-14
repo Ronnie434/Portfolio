@@ -67,8 +67,6 @@
             class="form-control"
             id="form"
             accept-charset="UTF-8"
-            action="https://usebasin.com/f/69dbd3a010be"
-            method="POST"
           >
             <div class="columns is-centered">
               <div class="column is-half">
@@ -77,7 +75,7 @@
                   <div class="control is-expanded">
                     <input
                       class="input is-large"
-                      name="name"
+                      id="name"
                       type="text"
                       required
                     />
@@ -90,7 +88,7 @@
                   <div class="control is-expanded">
                     <input
                       class="input is-large"
-                      name="email"
+                      id="email"
                       type="email"
                       required
                     />
@@ -105,7 +103,7 @@
                   <div class="control is-expanded">
                     <textarea
                       class="textarea is-large"
-                      name="message"
+                      id="message"
                       rows="5"
                       required
                     ></textarea>
@@ -124,7 +122,9 @@
                 <div class="field">
                   <div class="control">
                     <button
+                      onclick="location.href = 'https://ronnie434.github.io/Portfolio/pages/success.html';"
                       class="button is-primary is-outlined is-medium is-fullwidth is-rounded"
+                      type="submit"
                     >
                       Submit
                     </button>
@@ -136,12 +136,15 @@
         </div>
       </section>
     </div>
-    <script src="../JS/main-min.js"></script>
-    <script
-      src="https://usebasin.com/f/363b98eca5af/ahoy.js"
-      async=""
-      defer=""
-    ></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-storage.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-messaging.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-functions.js"></script>
+    <script src="../JS/contact_form.js"></script>
   </body>
 </html>
 
